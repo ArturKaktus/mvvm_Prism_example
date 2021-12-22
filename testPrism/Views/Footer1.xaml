@@ -1,0 +1,10 @@
+﻿<UserControl x:Class="testPrism.Views.Footer1"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:prism="http://prismlibrary.com/"             
+             prism:ViewModelLocator.AutoWireViewModel="True" >
+    <Grid Height="139" Width="269">
+        <Button Content="Далее" Command="{Binding CommandName}" CommandParameter="Content2" Margin="65,74,126,0" VerticalAlignment="Top" Height="19"/>
+
+    </Grid>
+</UserControl>
