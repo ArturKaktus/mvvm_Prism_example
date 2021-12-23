@@ -4,7 +4,8 @@
              xmlns:prism="http://prismlibrary.com/"             
              prism:ViewModelLocator.AutoWireViewModel="True">
     <Grid Height="139" Width="269">
-        <Label Content="Conten1!" HorizontalAlignment="Left" Margin="10,10,-196,-83" VerticalAlignment="Top" Height="109" Width="234"/>
+        <Label Content="Conten1!" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Height="60" Width="234"/>
+        <Button Content="Button" HorizontalAlignment="Left" Height="33" Margin="10,75,0,0" VerticalAlignment="Top" Width="66"/>
 
     </Grid>
 </UserControl>
